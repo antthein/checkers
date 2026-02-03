@@ -1,4 +1,6 @@
-# 🏁 CS50 Checkers
+# CHECKERS GAME
+#### Video Demo:  <URL HERE>
+#### Description:
 
 A modern, web-based implementation of the classic board game **Checkers**, built with **Python (Flask)**, **JavaScript**, and **SQLite**. This project features a polished **Glassmorphism UI**, 3D pieces, and a smart AI opponent.
 
