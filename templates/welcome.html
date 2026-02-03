@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Checkers</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/welcome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="welcome-page">
+    <div class="welcome-container">
+        <!-- Background Overlay -->
+        <div class="welcome-overlay"></div>
+
+        <div class="welcome-card">
+            <h1 class="game-title">CHECKERS</h1>
+            <p class="game-subtitle">The Classic Strategy Game</p>
+
+            <div class="action-buttons">
+                <a href="/play?mode=pvp" class="btn welcome-btn pvp">
+                    <span class="btn-icon">👥</span>
+                    <span class="btn-text">Player vs Player</span>
+                </a>
+                <a href="/play?mode=ai" class="btn welcome-btn ai">
+                    <span class="btn-icon">🤖</span>
+                    <span class="btn-text">Player vs AI</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
